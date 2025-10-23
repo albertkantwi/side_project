@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;wght@500;wght@600;700&display=swap');
 
 :root {
     --big-text: #172b4d;
@@ -31,5 +31,57 @@ header {
 header h4 {
     color: var(--bg2);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
 }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 5%;
+    position: relative;
+}
+
+h1 {
+    font-family: var(--font);
+    color: var(--big-text);
+    font-size: 40px;
+    font-weight: 600;  
+}
+
+.hero h1 {
+    width: 327px;
+    line-height: 42px;
+    padding: 20px 0;
+}
+
+p {
+    font-weight: var(--font);
+    font-size: 16px;
+    color: var(--small-text);
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.hero div span {
+    font-family: var(--font);
+    color: #7F8CFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hero div nav{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.hero img {
+    position: absolute;
+}
+
+
