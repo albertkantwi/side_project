@@ -16,9 +16,10 @@
 }
 
 body {
-    background: var(--bg);
+
     max-width: 375px;
-    
+    background: #ebebff;
+  
 }
 
 header {
@@ -26,6 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5%;
+    background: var(--bg);
 }
 
 header h4 {
@@ -37,27 +39,38 @@ header h4 {
 .hero {
     display: flex;
     flex-direction: column;
-    padding: 60px 5%;
+    padding: 5rem 5% 3rem;
     position: relative;
+    height: 100vh;
+    border-radius: 0 0 0 100px;
+    background: var(--bg);
 }
 
 h1 {
     font-family: var(--font);
     color: var(--big-text);
     font-size: 40px;
-    font-weight: 600;  
+    font-weight: 600; 
 }
 
 .hero h1 {
-    width: 327px;
+    width: 90%;
     line-height: 42px;
-    padding: 20px 0;
+    padding: 2rem 0 1rem;
+    margin-top: 2rem; 
+    z-index: 1;
 }
 
 p {
     font-weight: var(--font);
     font-size: 16px;
     color: var(--small-text);
+}
+
+.hero p {
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    z-index: 1;
 }
 
 .hero div {
@@ -71,6 +84,7 @@ p {
     color: #7F8CFF;
     font-weight: 500;
     font-size: 16px;
+    z-index: 1;
 }
 
 .hero div nav{
@@ -78,6 +92,7 @@ p {
     width: 120px;
     justify-content: space-between;
     padding: 8px 0;
+    z-index: 1;
 }
 
 .hero img {
@@ -85,3 +100,159 @@ p {
 }
 
 
+.bg-obj11 {
+    top: 6%;
+    left: 0;
+}
+
+.bg-obj12 {
+    right: 10%;
+    bottom: 33.3%;
+}
+
+.bg-obj13 {
+    right: 11%;
+    bottom: 30%;
+}
+
+.bg-obj14 {
+    right: 20%;
+    top: 33%;
+}
+
+.bg-obj15 {
+    bottom: 20%;
+    left: 10%;
+}
+
+.bg-obj3 {
+    right: 0;
+    top: 12%;
+}
+
+.bg-obj4 {
+    right: 35%;
+    bottom: 17%;
+}
+
+.bg-obj5 {
+    top: 10%;
+    left: 35%;
+}
+
+.bg-obj8 {
+    top: 5%;
+    right: 35%;
+}
+
+.bg-obj04 {
+    right: 0;
+    top: 7%;
+}
+
+.bg-obj05 {
+    bottom: 14.6%;
+    right: 35%;
+}
+
+.bg-obj06 {
+    top: 3%;
+    left: 0;
+}
+
+.bg-obj07 {
+    top: 8%;
+    left: 34%;
+}
+
+.project {
+    padding: 30px 5%;
+}
+
+.tonic {
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    border-radius: 10px;
+    margin: 50px 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.tonic img {
+    width: 100%;
+}
+
+.tonic h1 {
+    padding: 1rem 0;
+}
+
+.tonic div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    line-height: 16px;
+}
+
+.tonic div h6 {
+    font-family: var(--font);
+    color: var(--big-text);
+    font-size: 13px;
+    font-family: 600;
+    margin-bottom: -3px;
+}
+
+.tonic div ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 0.5rem;
+    margin-top: -5px;
+    line-height: 1;
+}
+
+.tonic div ul li {
+    font-family: var(--font);
+    font-size: 13px;
+    color: #7a869a;
+    font-weight: 600;
+}
+
+.tonic div ul li::marker {
+    font-size: 25px;
+}
+
+.tonic p {
+    padding: 0.5rem 0;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.skill li {
+    list-style: none;
+    background: #ebebff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--bg2);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.tonic a {
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    color: #396df2;
+    font-size: 17px;
+    border: 1px solid var(--bg2);
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
