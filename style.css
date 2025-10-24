@@ -16,10 +16,8 @@
 }
 
 body {
-
-    max-width: 375px;
     background: #ebebff;
-  
+    max-width: 375px; 
 }
 
 header {
@@ -35,6 +33,7 @@ header h4 {
     font-size: 20px;
     font-weight: 700;
 }
+
 
 .hero {
     display: flex;
@@ -167,6 +166,7 @@ p {
 
 .project {
     padding: 30px 5%;
+    background: #ebebff;
 }
 
 .tonic {
@@ -261,7 +261,7 @@ p {
     background: var(--bg);
     margin-top: 50px;
     border-top-right-radius: 150px;
-    padding: 100px 5%;
+    padding: 100px 5% 250px;
 }
 
 .about div h1 {
@@ -305,4 +305,11 @@ ul {
     margin: 10px 0;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+}
+
+.form {
+    background: var(--bg2);
+    padding: 100px 5% 1rem;
+    border-top-left-radius: 150px;
+    margin-top: -150px;
 }
