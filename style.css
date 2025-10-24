@@ -42,7 +42,7 @@ header h4 {
     padding: 5rem 5% 3rem;
     position: relative;
     height: 100vh;
-    border-radius: 0 0 0 100px;
+    border-radius: 0 0 0 150px;
     background: var(--bg);
 }
 
@@ -73,13 +73,13 @@ p {
     z-index: 1;
 }
 
-.hero div {
+.socials {
     display: flex;
     flex-direction: column;
     padding: 20px 0;
 }
 
-.hero div span {
+.socials span {
     font-family: var(--font);
     color: #7F8CFF;
     font-weight: 500;
@@ -87,7 +87,7 @@ p {
     z-index: 1;
 }
 
-.hero div nav{
+.socials nav{
     display: flex;
     width: 120px;
     justify-content: space-between;
@@ -245,7 +245,7 @@ p {
     font-weight: 500;
 }
 
-.tonic a {
+.btn {
     width: 100px;
     padding: 10px;
     text-decoration: none;
@@ -255,4 +255,54 @@ p {
     border-radius: 5px;
     font-weight: 500;
     margin: 0.5rem 0;
+}
+
+.about {
+    background: var(--bg);
+    margin-top: 50px;
+    border-top-right-radius: 150px;
+    padding: 100px 5%;
+}
+
+.about div h1 {
+    padding: 1rem 0;
+}
+
+.languages {
+    margin-top: 30px;
+    padding: 1rem 0;
+}
+
+.languages span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 30px 1rem 0;
+}
+
+.line {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.languages span h4 {
+    color: #000;
+    font-family: var(--font);
+    font-size: 20px;
+    padding: 1rem 3%;
+}
+
+ul {
+    padding: 0 3%;
+}
+
+.languages ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #F7F7F9;
+    color: #253858;
+    margin: 10px 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
